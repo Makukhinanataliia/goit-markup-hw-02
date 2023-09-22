@@ -56,6 +56,9 @@ a{
     letter-spacing: 0.02em;
     font-size: 16px;
 }
+.adress-menu-link:hover, .adress-menu-link:focus{
+    color: #404bbf;
+}
 /*?---------------------SECTION-1-BUISNESS----------------*/
 .business {
     background: #2E2F42;
