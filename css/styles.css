@@ -39,7 +39,7 @@ a{
     font-size: 16px;
 }
 .header-menu-link:hover, .header-menu-link:focus{
-    color:#404BBF;
+    color:#404bbf;
 }
 
 .adress {
@@ -52,12 +52,12 @@ a{
 .adress-menu-link {
     color: #434455;
     font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-size: 16px;
 }
 .adress-menu-link:hover, .adress-menu-link:focus{
-    color: #404bbf;
+    color: #404bbf;     
 }
 /*?---------------------SECTION-1-BUISNESS----------------*/
 .business {
@@ -67,7 +67,7 @@ a{
     color: #FFF;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.13;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -75,7 +75,7 @@ a{
     color: #FFF;
     font-family:"Roboto", sans-serif;
     font-weight: 500;
-    line-height: 1.07;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -114,9 +114,10 @@ a{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-}
+    background-color: #F4F4FD;
+} 
+
 .team-list {
-    background-color: #FFFFFF;
 }
 .team-item {
     color: #2E2F42;
@@ -125,25 +126,27 @@ a{
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    background-color: #FFFFFF;
 }
 .team-img-name {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .team-item-text {color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
 }
 /*?------------------------SECTION-4-PORTFOLIO--------------------------*/
 .portfolio {
-color: #2E2F42;
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+
 }
 .portfolio-list {
 }
